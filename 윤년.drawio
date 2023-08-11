@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T03:14:05.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.8" etag="P2t4GNbOwsujjMap6mMR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T03:20:54.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mMTC4ZD1MA3_WTc5aZiW" version="21.6.8" type="github">
   <diagram name="페이지-1" id="Y8Fa8QJJ-miX1Z8iusre">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-1" value="년수가 4로 나누어 떨어지는가?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-2" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1" source="ubYIDBWffuP2_b0V6vPp-1">
+          <mxGeometry x="0.0047" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="180" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-3" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="ubYIDBWffuP2_b0V6vPp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-4" value="윤년이 아닙니다." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-5" value="년수가 100 으로 나누어 떨어지는가?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-6" value="년수가 400 으로 나누어 떨어지는가?" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-7" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+          <mxGeometry x="0.0047" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="260" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-8" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-9" value="윤년입니다." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="144" y="400" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-11" value="No" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+          <mxGeometry x="0.0047" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="420" y="540" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-12" value="Yes" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="700" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-13" value="윤년입니다." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="588" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYIDBWffuP2_b0V6vPp-14" value="윤년이 아닙니다." style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="292" y="540" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
